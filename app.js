@@ -9,9 +9,9 @@ const connection = mysql.createConnection({
     //password: '',
     //database: 'c237_pcshop'
     host: 'db4free.net',
-    user: 'username_created_for_db4free.net',
-    password: 'password_created_for_db4free.net',
-    database: 'databaseName_created_for_db4free.net'
+    user: 'hawmingc237',
+    password: 'ng723731',
+    database: 'miniprojecthm'
 });
 
 connection.connect((err) => {
