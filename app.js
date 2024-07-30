@@ -4,10 +4,14 @@ const app = express();
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_pcshop'
+    //host: 'localhost',
+    //user: 'root',
+    //password: '',
+    //database: 'c237_pcshop'
+    host: 'db4free.net',
+    user: 'username_created_for_db4free.net',
+    password: 'password_created_for_db4free.net',
+    database: 'databaseName_created_for_db4free.net'
 });
 
 connection.connect((err) => {
