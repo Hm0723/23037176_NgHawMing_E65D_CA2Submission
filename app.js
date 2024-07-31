@@ -183,5 +183,5 @@ app.get('/addProduct', (req, res) => {
     res.render('addProduct');
 });
 
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
