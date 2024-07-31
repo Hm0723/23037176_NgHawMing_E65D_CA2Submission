@@ -8,10 +8,10 @@ const connection = mysql.createConnection({
     //user: 'root',
     //password: '',
     //database: 'c237_pcshop'
-    host: 'db4free.net',
-    user: 'hmc237',
-    password: 'ng723731',
-    database: 'c237_pcshop'
+    host: 'sql.freedb.tech',
+    user: 'freedb_hmc237',
+    password: '%#hEe$7*YKRhQ4k',
+    database: 'freedb_c237_l12'
 });
 
 connection.connect((err) => {
